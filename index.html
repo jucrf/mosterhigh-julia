@@ -3,21 +3,25 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Monster High - A era que ficou no passado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="topo">
 
+    <!-- CABEÇALHO -->
     <header>
         <div class="caixa">
-            <div class="titulo-escola">
-                <h1>Monster High</h1>
-                <p>A geração original (2010 a 2016): uma era que ficou na memória</p>
-            </div>
+            <img class="logo" src="imagens/logo-monsterhigh.png" alt="Logo Monster High">
             <nav>
                 <ul>
                     <li><a href="#historia">História</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#porque">Por que marcou</a></li>
+                    <li><a href="#video">Vídeo</a></li>
                     <li><a href="#fim">O fim da era</a></li>
                     <li><a href="#memoria">Minha memória</a></li>
                 </ul>
@@ -25,27 +29,177 @@
         </div>
     </header>
 
+    <!-- HERO -->
+    <section class="hero">
+        <div class="caixa">
+            <span class="selo">2010 a 2016</span>
+            <h1>Monster High</h1>
+            <p class="hero-texto">A escola mais diferente do mundo, e a era que marcou a infância de muita gente.</p>
+            <a href="#historia" class="botao">Relembrar a história</a>
+            <img class="hero-banner" src="imagens/banner.jpg" alt="A turma de Monster High">
+        </div>
+    </section>
+
     <main>
         <div class="caixa">
 
+            <!-- HISTÓRIA -->
             <section class="secao" id="historia">
                 <h2 class="secao-titulo">Como tudo começou</h2>
-                <p>Em 2010, a Mattel lançou Monster High, uma escola imaginária cheia de filhos e filhas de monstros clássicos, como Drácula, Frankenstein e a Múmia.</p>
-                <p>Durante alguns anos, as bonecas, as webséries e os filmes fizeram parte da infância de muita gente. <mark>Elas mostravam que ser diferente não era defeito, era o maior charme.</mark></p>
+                <p class="secao-subtitulo">Uma escola cheia de monstros e de personalidade</p>
+                <div class="duas-colunas">
+                    <div>
+                        <p>Em 2010, a Mattel lançou Monster High, uma escola imaginária cheia de filhos e filhas de monstros clássicos, como Drácula, Frankenstein e a Múmia. A franquia foi criada pelo designer de brinquedos Garrett Sander.</p>
+                        <p>Durante alguns anos, as bonecas, as webséries e os filmes fizeram parte da infância de muita gente. <mark>Elas mostravam que ser diferente não era defeito, era o maior charme.</mark></p>
+                    </div>
+                    <img class="foto" src="imagens/bonecas.png" alt="Bonecas Monster High">
+                </div>
             </section>
 
+            <!-- PERSONAGENS -->
+            <section class="secao" id="personagens">
+                <h2 class="secao-titulo">A turma que marcou uma época</h2>
+                <p class="secao-subtitulo">As personagens que todo mundo queria ter</p>
+                <div class="cards-grid">
+
+                    <div class="personagem-card">
+                        <img src="imagens/draculaura.png" alt="Draculaura">
+                        <h4>Draculaura</h4>
+                        <p>Filha do Drácula, vampira e apaixonada por rosa.</p>
+                    </div>
+
+                    <div class="personagem-card verde">
+                        <img src="imagens/frankie.png" alt="Frankie Stein">
+                        <h4>Frankie Stein</h4>
+                        <p>Filha do Frankenstein, curiosa sobre tudo.</p>
+                    </div>
+
+                    <div class="personagem-card roxo">
+                        <img src="imagens/clawdeen.png" alt="Clawdeen Wolf">
+                        <h4>Clawdeen Wolf</h4>
+                        <p>Filha do lobisomem, amava moda e era muito leal.</p>
+                    </div>
+
+                    <div class="personagem-card">
+                        <img src="imagens/cleo.png" alt="Cleo de Nile">
+                        <h4>Cleo de Nile</h4>
+                        <p>Filha da Múmia, a princesa egípcia da turma.</p>
+                    </div>
+
+                    <div class="personagem-card verde">
+                        <img src="imagens/lagoona.png" alt="Lagoona Blue">
+                        <h4>Lagoona Blue</h4>
+                        <p>Monstro marinho simpática, vinda da Austrália.</p>
+                    </div>
+
+                    <div class="personagem-card roxo">
+                        <img src="imagens/ghoulia.png" alt="Ghoulia Yelps">
+                        <h4>Ghoulia Yelps</h4>
+                        <p>A zumbi mais inteligente da escola.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- POR QUE MARCOU -->
+            <section class="secao" id="porque">
+                <h2 class="secao-titulo">Por que marcou tanta gente?</h2>
+                <p class="secao-subtitulo">Três motivos que fizeram a diferença</p>
+                <div class="destaques-grid">
+
+                    <div class="destaque-card">
+                        <span class="etiqueta">Motivo 1</span>
+                        <h3>O estilo</h3>
+                        <p>Visual gótico, colorido e cheio de atitude, bem diferente das bonecas tradicionais da época.</p>
+                    </div>
+
+                    <div class="destaque-card verde">
+                        <span class="etiqueta">Motivo 2</span>
+                        <h3>A mensagem</h3>
+                        <p>Aceitar as diferenças e ser quem você é. Cada monstro tinha um jeito único e todos tinham lugar.</p>
+                    </div>
+
+                    <div class="destaque-card roxo">
+                        <span class="etiqueta">Motivo 3</span>
+                        <h3>O universo</h3>
+                        <p>Bonecas, webséries, filmes, música e até gírias próprias. Era um mundo inteiro para explorar.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CURIOSIDADES E VOCABULÁRIO -->
+            <section class="secao" id="curiosidades">
+                <h2 class="secao-titulo">Curiosidades e vocabulário monstro</h2>
+                <p class="secao-subtitulo">Para quem lembra (ou quer lembrar)</p>
+                <div class="duas-colunas iguais">
+
+                    <div class="caixa-lista">
+                        <h3>Você sabia?</h3>
+                        <ul>
+                            <li>As webséries estrearam no YouTube em 5 de maio de 2010.</li>
+                            <li>O clipe "Fright Song" foi lançado em agosto de 2010.</li>
+                            <li>Os meninos da escola eram chamados de "mansters".</li>
+                            <li>Hoje, as bonecas dessa época são itens de coleção.</li>
+                        </ul>
+                    </div>
+
+                    <div class="caixa-lista">
+                        <h3>Vocabulário monstro</h3>
+                        <ul>
+                            <li><strong>Ghoul:</strong> como as garotas monstro eram chamadas.</li>
+                            <li><strong>Manster:</strong> os garotos monstro.</li>
+                            <li><strong>Fangtastic:</strong> o mesmo que "fantástico", com presas.</li>
+                            <li><strong>Freaky fabulous:</strong> o lema de estilo da turma.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- VÍDEO -->
+            <section class="secao" id="video">
+                <h2 class="secao-titulo">Relembre a era clássica</h2>
+                <p class="secao-subtitulo">As webséries curtas eram a principal forma de conhecer a turma</p>
+                <div class="video-box">
+                    <!-- TROQUE COLE_AQUI_O_ID PELO CÓDIGO DO VÍDEO DO YOUTUBE (o que vem depois de v= no link) -->
+                    <iframe src="https://www.youtube.com/embed/COLE_AQUI_O_ID" title="Vídeo Monster High" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- LINHA DO TEMPO -->
             <section class="secao" id="fim">
                 <h2 class="secao-titulo">O fim da era</h2>
-                <p>Por volta de 2016, a linha original perdeu força e foi encerrada. As bonecas de rostos e roupas daquela época deixaram de ser fabricadas e hoje só são encontradas como itens de coleção.</p>
-                <p><em>Nota: a Mattel relançou a marca em 2021 com novo visual. Esta página fala da geração original, que não existe mais como era.</em></p>
+                <p class="secao-subtitulo">Como a geração original foi ficando para trás</p>
+                <ul class="timeline">
+                    <li><strong>2010</strong> Estreiam as webséries no YouTube e as bonecas chegam às lojas.</li>
+                    <li><strong>2011 a 2014</strong> Auge da franquia, com filmes, novas personagens e muito sucesso.</li>
+                    <li><strong>2015</strong> Termina a websérie original.</li>
+                    <li><strong>2016</strong> A marca é reformulada e as bonecas clássicas deixam de ser a linha principal.</li>
+                </ul>
+                <p>Hoje, as bonecas daquela época só são encontradas como itens de coleção. <em>Nota: a Mattel voltou a lançar a marca com novas gerações, mas esta página fala da geração original, que não existe mais como era.</em></p>
+            </section>
+
+            <!-- MEMÓRIA PESSOAL -->
+            <section class="secao" id="memoria">
+                <h2 class="secao-titulo">Minha memória com Monster High</h2>
+                <p class="secao-subtitulo">O lado pessoal da história</p>
+                <div class="memoria-box">
+                    <!-- ESCREVA AQUI A SUA HISTÓRIA COM AS SUAS PALAVRAS -->
+                    <p>Monster High marcou muito a minha infância, principalmente por causa das bonecas e das histórias que eu inventava com elas. Eu tinha algumas bonecas e adorava brincar com elas, criando histórias e aventuras junto com minhas amigas. Eu também amava assistir aos episódios e lembro até hoje de ficar encantada com as personagens, cada uma com seu estilo e personalidade. Era uma coisa simples, mas que fez parte de uma fase muito especial da minha infância e que até hoje me traz uma sensação enorme de nostalgia.</p>
+                    <p class="assinatura-texto">- Julia</p>
+                </div>
             </section>
 
         </div>
     </main>
 
+    <!-- RODAPÉ -->
     <footer>
         <div class="caixa">
+            <img class="logo-rodape" src="imagens/logo-monsterhigh.png" alt="Monster High">
             <p class="copyright">&#xA9; 2026 - Página de estudo sobre Monster High. Marca pertencente à Mattel.</p>
+            <a href="#topo" class="voltar-topo">Voltar ao topo &uarr;</a>
         </div>
     </footer>
 
