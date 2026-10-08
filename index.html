@@ -3,15 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Monster High - A era que ficou no passado</title>
-    <link rel="icon" type="image/png" href="imagens/logo-monsterhigh.png">
+    <link rel="icon" type="image/png" href="imagens/logo-monsterhigh.png"> <!-- ícone da aba -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!-- fontes do Google -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 
-<body id="topo">
+<body id="topo"> 
 
     <!-- CABEÇALHO -->
     <header>
@@ -32,7 +31,7 @@
         </div>
     </header>
 
-    <!-- HERO -->
+    <!-- HERO (abertura da página) -->
     <section class="hero">
         <div class="caixa">
             <span class="selo">2010 a 2016</span>
@@ -69,7 +68,7 @@
             <section class="secao" id="historia">
                 <h2 class="secao-titulo">Como tudo começou</h2>
                 <p class="secao-subtitulo">Uma escola cheia de monstros e de personalidade</p>
-                <div class="duas-colunas">
+                <div class="duas-colunas"> <!-- texto de um lado, foto do outro -->
                     <div>
                         <p>Em 2010, a Mattel lançou Monster High, uma linha de bonecas criada pelo designer de brinquedos Garrett Sander. A ideia era imaginar uma escola onde os alunos são filhos e filhas de monstros famosos, como o Drácula, o Frankenstein, a Múmia e o Lobisomem.</p>
                         <p>Cada personagem tinha um estilo próprio, uma personalidade e uma história de família. Assim, a gente não só brincava com as bonecas, como também conhecia cada uma delas e escolhia a favorita.</p>
@@ -84,7 +83,7 @@
             <section class="secao" id="personagens">
                 <h2 class="secao-titulo">Conheça as protagonistas</h2>
                 <p class="secao-subtitulo">As alunas mais famosas da escola</p>
-                <div class="cards-grid">
+                <div class="cards-grid"> <!-- 3 cards por linha -->
 
                     <div class="personagem-card">
                         <img src="imagens/draculaura.png" alt="Draculaura">
@@ -92,7 +91,7 @@
                         <p>Filha do Drácula, vampira e apaixonada por rosa.</p>
                     </div>
 
-                    <div class="personagem-card verde">
+                    <div class="personagem-card verde"> <!-- a classe extra muda a cor da borda -->
                         <img src="imagens/frankie.png" alt="Frankie Stein">
                         <h4>Frankie Stein</h4>
                         <p>Filha do Frankenstein, curiosa sobre tudo.</p>
@@ -157,7 +156,7 @@
                 <h2 class="secao-titulo">Um universo inteiro</h2>
                 <p class="secao-subtitulo">Monster High ia muito além das bonecas</p>
                 <p>A marca cresceu tanto que estava presente em várias partes do dia a dia. Quem era fã encontrava as protagonistas em praticamente tudo, e isso ajudava a transformar um brinquedo em uma verdadeira febre.</p>
-                <ul class="etiquetas">
+                <ul class="etiquetas"> <!-- lista que vira etiquetas coloridas -->
                     <li>Bonecas</li>
                     <li>Webséries</li>
                     <li>Filmes</li>
@@ -176,7 +175,7 @@
                 <p class="secao-subtitulo">Um álbum com as protagonistas</p>
                 <div class="galeria">
 
-                    <figure>
+                    <figure> <!-- figure = imagem com legenda -->
                         <img src="imagens/bonecas.png" alt="Bonecas Monster High">
                         <figcaption>As bonecas que eram febre</figcaption>
                     </figure>
@@ -275,6 +274,7 @@
                 <h2 class="secao-titulo">Relembre a era clássica</h2>
                 <p class="secao-subtitulo">As webséries curtas eram a principal forma de conhecer as protagonistas</p>
                 <div class="video-box">
+                    <!-- iframe: player do YouTube dentro da página -->
                     <iframe src="https://www.youtube.com/embed/YYq5DkJouSk?si=VMUjCKSXsb84FxC8" title="Vídeo Monster High" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
@@ -298,10 +298,18 @@
                 <h2 class="secao-titulo">Minha memória com Monster High</h2>
                 <p class="secao-subtitulo">O lado pessoal da história</p>
                 <div class="memoria-box">
-                    <p>Monster High marcou muito a minha infância, principalmente por causa das bonecas e das histórias que eu inventava com elas. Eu tinha algumas bonecas e adorava brincar com elas, criando histórias e aventuras junto com minhas amigas.</p>
-                    <p>Eu também amava assistir aos episódios e lembro até hoje de ficar encantada com as personagens, cada uma com seu estilo e personalidade.</p>
-                    <p>Era uma coisa simples, mas que fez parte de uma fase muito especial da minha infância e que até hoje me traz uma sensação enorme de nostalgia.</p>
-                    <p class="assinatura-texto">- Julia</p>
+                    <div class="duas-colunas"> <!-- texto de um lado, minha foto do outro -->
+                        <div>
+                            <p>Monster High marcou muito a minha infância, principalmente por causa das bonecas e das histórias que eu inventava com elas. Eu tinha algumas bonecas e adorava brincar com elas, criando histórias e aventuras junto com minhas amigas.</p>
+                            <p>Eu também amava assistir aos episódios e lembro até hoje de ficar encantada com as personagens, cada uma com seu estilo e personalidade.</p>
+                            <p>Era uma coisa simples, mas que fez parte de uma fase muito especial da minha infância e que até hoje me traz uma sensação enorme de nostalgia.</p>
+                            <p class="assinatura-texto">- Julia</p>
+                        </div>
+                        <figure class="foto-memoria">
+                            <img src="imagens/minha-foto.jpg" alt="Eu com a mochila da Monster High">
+                            <figcaption>Eu e a minha mochila da Monster High</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </section>
 
